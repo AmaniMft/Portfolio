@@ -39,8 +39,7 @@ function NavBar() {
             href="#hero"
             >
                 <span  className="relative z-10">
-                   {" "}
-                   <span className="text-glow text-foreground"> PedroTech </span>  Portfolio
+                   <span className="text-glow text-foreground"> Amani </span>  Portfolio
                 </span>
             </a>
             {/*desktop nav*/}

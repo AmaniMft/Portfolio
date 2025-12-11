@@ -4,12 +4,17 @@ import {cn} from "@/lib/utils";
 
 const skills =[
     //Front-end
-    {name: "JS", category:"Frontend"},
+    {name: "JavaScript", category:"Frontend"},
+    {name: "HTML/CSS", category:"Frontend"},
+    {name: "React", category:"Frontend"},
+    {name: "Angular", category:"Frontend"},
+    {name: "TwailndCss", category:"Frontend"},
     {name: "HTML/CSS", category:"Frontend"},
 
     //Back-end
     {name: "Java", category:"Backend"},
     {name: "Python", category:"Backend"},
+    {name: "Django", category:"Backend"},
    
     //Tools
     {name: "Git", category:"Tools"}, 
