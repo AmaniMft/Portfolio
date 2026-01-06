@@ -10,9 +10,16 @@ function AboutMeSection(){
 
                 <div className=" grid grid-cols-1 md:grid-cols-2 gap-12 items-center  ">
                     <div className=" space-y-6"> 
-                        <h3 className="text-2xl font"> Passionate Web Developer </h3>
-                        <p className=" text-muted-foreground "> ingenier dimplomee de .. specialsee de cree reponsive, accesble, andperforment web application !! </p>
-                        <p className=" text-muted-foreground "> passioner de creree de solution avec envoir d'apprendre de nv technologie and technique to stay at the forefront of ever-evolving  </p>
+                        <h3 className="text-2xl font"> Full Stack developer </h3>
+                        <p className=" text-muted-foreground ">
+                            Full Stack developer specialized in Python/Django and React.
+                        </p>
+                        <p className=" text-muted-foreground ">
+                            I have experience working on internal applications used in production, contributing to both backend development (REST APIs, relational databases) and frontend integration.
+                        </p>
+                        <p className=" text-muted-foreground ">
+                           I enjoy building well-structured applications, writing clear and maintainable code, and collaborating in organized development environments.
+                        </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button"> Get In Touch </a>
                             <a href="" className="cosmic-button">  Download CV </a>  {/*ajout fichier CV */}
@@ -22,27 +29,29 @@ function AboutMeSection(){
                     
 
                 <div className="grid grid-cols-1 gap-6">
-                    {/* code section */}
+                    {/* stack section */}
                     <div className="gradiant-border p-6 card-hover"> 
                         <div className="flex items-start gap-4  ">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Code className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Web Development </h4>
-                                <p className="text-muted-foreground"> listing something  </p>
+                                <h4 className="font-semibold text-lg">Stack</h4>
+                                <p className="text-muted-foreground"> Python · Django · React  </p>
                             </div>
                         </div>
                     </div>
-                    {/* User interaction  */}
+                    {/* Soft Skills  */}
                     <div className="gradiant-border p-6 card-hover">
                         <div className="flex items-start gap-4  ">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <User className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Web Development </h4>
-                                <p className="text-muted-foreground"> listing something  </p>
+                                <h4 className="font-semibold text-lg">Soft Skills</h4>
+                                <p className="text-muted-foreground">
+                                    Autonomous · Curious 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -55,8 +64,8 @@ function AboutMeSection(){
                                 <Briefcase className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Web Development </h4>
-                                <p className="text-muted-foreground"> listing something  </p>
+                                <h4 className="font-semibold text-lg">Experience</h4>
+                                <p className="text-muted-foreground"> Internal tools · Production environments · APIs & databases </p>
                             </div>
                         </div>
                     </div>

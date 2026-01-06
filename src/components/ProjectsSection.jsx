@@ -3,22 +3,34 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Site E-commerce",
-    description: "site de e-cpmmerce de vente de produit cosmitic en ligne",
-    image: "/projects/project1.jpg",
-    tags: ["Angular", "Java", "JavaScript" , "HTML/CSS"],
+    title: "Messaging system",
+    description: "Design and development of a messaging system with a REST API to manage users, conversations and messages, including secure data validation and a relational database.",
+    image: "/images/Chatapp.PNG",
+    tags: [ "Java", "Spring Boot" , "SQLite"],
     DemoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "description 2",
-    image: "/projects/project2.png",
-    tags: ["Outils", "Utiliser"],
+    title: "Automated Report Generation",
+    description: " Development of a web application to automatically generate Word reports from Excel files, including file upload, metadata handling, history tracking and secure backend validation.",
+    image: "/images/ARG.PNG",
+    tags: ["Python", "Django", "SQLite","JavaScript", "HTML/CSS"],
     DemoUrl: "#",
     githubUrl: "#",
-  }
+  }, 
+
+  {
+    id: 3,
+    title: "Biological Data Analysis Automation",
+    description: "Data cleaning, validation, automated calculations and result visualization to improve reliability and efficiency of laboratory workflows.",
+    image: "/images/ADB.jpg",
+    tags: ["Python"],
+    DemoUrl: "#",
+    githubUrl: "#",
+  }, 
+
+
 ];
 
 function ProjectsSection() {

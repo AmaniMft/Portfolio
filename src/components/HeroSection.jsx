@@ -11,9 +11,11 @@ function HeroSection (){
                         <span className="text- opacitgradient ml-2 y-0 animate-fade-in-delay-2"> Meftah </span>
                     </h1> 
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        bio about me   
+                        Full Stack Developer, Building modern and reliable web applications. 
+                        
+                        I enjoy transforming ideas into functional products and continuously improving
+                        my technical skills through real-world projects.                    
                     </p>
-
                     <div className=" pt-4 opacity-0 animate-fade-in-delay-4">
                         <a href="#projects" className=" cosmic-button">
                             View my Work
