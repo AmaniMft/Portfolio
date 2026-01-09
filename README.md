@@ -11,7 +11,7 @@ This portfolio is intended for **recruiters and clients**, with a strong focus o
 - ⚡ Fast and lightweight setup with **Vite**
 - 🎨 Clean, modern, and responsive UI
 - 🌗 Dark / Light mode toggle
-- 🌍 Internationalization (i18n – EN / FR)
+- 🌍 Internationalization (EN / FR)
 - 🧩 Modular and scalable component architecture
 - 🧭 Smooth navigation with scroll-based sections
 - 🧑‍💻 Projects showcase with tech stack highlights
@@ -24,25 +24,24 @@ This portfolio is intended for **recruiters and clients**, with a strong focus o
 
 ### Frontend
 - React
-- Vite
-- React Router
 - Tailwind CSS
-- i18next
 
 
 ---
 
 ## 📁 Project Structure
 
-src/
-├─ components/ # Reusable UI components
-├─ pages/ # Routed pages (Home,NotFound)
-├─ assets/ # Static assets
-├─ lib/ # Utilities and helpers
-├─ i18n.js # Internationalization setup
-├─ App.jsx # Application routes
-├─ main.jsx # Application entry point
+    src/
+    ├─ components/        Reusable UI components
+    ├─ pages/             Routed pages (Home, NotFound)
+    ├─ assets/            Static assets
+    ├─ lib/               Utilities and helpers
+    ├─ i18n.js            Internationalization setup
+    ├─ App.jsx            Application routes
+    ├─ main.jsx           Application entry point
 
+
+---
 
 ## 🚧 Pages & Sections
 
