@@ -25,8 +25,8 @@ function AboutMeSection() {
                 {t("about_cta_contact")}
               </a>
 
-              {/* lien CV !!!!!!!*/}
-              <a href="" className="cosmic-button">
+              
+              <a href="/CV_Amani_MEFTAH.pdf" className="cosmic-button">
                 {t("about_cta_cv")}
               </a>
             </div>
