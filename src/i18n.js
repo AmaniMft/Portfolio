@@ -74,15 +74,14 @@ i18n.use(initReactI18next).init({
 
         project_msg_title: "Messaging system",
         project_msg_desc:
-          "Messaging system built around a REST API, handling users, conversations, and messages, with secure backend validation and a relational database.",
-
+          "Real-time messaging application similar to WhatsApp, enabling user management, private conversations and secure message exchange.",
         project_arg_title: "Automated Report Generation",
         project_arg_desc:
-          "Enterprise web application that automates the generation of Word reports from Excel files, with secure file uploads, metadata management and report history tracking.",
+          "Enterprise web application that automatically generates Word reports from Excel files, with secure uploads and structured metadata management.",
 
-        project_bio_title: "Biological Data Analysis Automation",
+        project_bio_title: "Data Analysis Automation",
         project_bio_desc:
-          "Data processing and visualization pipeline including cleaning, validation, and automated calculations to enhance laboratory workflow reliability.",
+          "Application designed to analyze, clean and validate biological data .",
 
         // SKILLS
         skills_title_my: "My",
@@ -131,9 +130,9 @@ i18n.use(initReactI18next).init({
         nav_contact: "Contact",
 
         // HERO
-        hero_hi_im: "Salut, je suis",
+        hero_hi_im: "Bonjour, je suis",
         hero_desc_line1:
-          "Développeuse Full Stack, je conçois des applications web modernes et fiables.",
+          "Développeuse Full Stack, je crée des applications web modernes et fiables.",
         hero_desc_line2:
           "J’aime transformer des idées en produits concrets et améliorer continuellement mes compétences techniques grâce à des projets réels.",
         hero_cta: "Voir mes projets",
@@ -173,15 +172,15 @@ i18n.use(initReactI18next).init({
 
         project_msg_title: "Système de messagerie",
         project_msg_desc:
-          "Système de messagerie basé sur une API REST, gestion des utilisateurs, conversations et messages, avec validation backend sécurisée et base de données relationnelle.",
+          "Application de messagerie en temps réel de type WhatsApp, permettant la gestion des utilisateurs, des conversations privées et l’échange sécurisé de messages.",
 
         project_arg_title: "Génération automatique de rapports",
         project_arg_desc:
-          "Application web d’entreprise qui automatise la génération de rapports Word à partir de fichiers Excel, avec upload sécurisé, gestion des métadonnées et historique des rapports.",
+          "Application web qui automatise la génération de rapports Word à partir de fichiers Excel, avec upload sécurisé et gestion des métadonnées ",
 
-        project_bio_title: "Automatisation d’analyse de données biologiques",
+        project_bio_title: "Automatisation d’analyse de données",
         project_bio_desc:
-          "Pipeline de traitement et visualisation de données incluant nettoyage, validation et calculs automatisés pour améliorer la fiabilité des workflows de laboratoire.",
+          "Application conçue pour analyser, nettoyer et valider des données biologiques .",
 
         // SKILLS
         skills_title_my: "Mes",
