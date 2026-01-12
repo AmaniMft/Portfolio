@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import ThemeToggle from "@/components/ThemeToggle";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -22,13 +23,13 @@ function NavBar() {
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 10);
 
-    handleScroll(); // init (si on reload en milieu de page)
+    handleScroll(); 
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  /* 🔒 Lock scroll when mobile menu is open */
+  
   useEffect(() => {
     document.body.style.overflow = isMenuOpen ? "hidden" : "";
 
@@ -37,7 +38,7 @@ function NavBar() {
     };
   }, [isMenuOpen]);
 
-  /* ⌨️ Close menu on Escape */
+  
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Escape") setIsMenuOpen(false);
@@ -53,7 +54,7 @@ function NavBar() {
   return (
     <nav
       className={cn(
-        "fixed w-full z-[1000] transition-all duration-300",
+        "fixed top-0 left-0 w-full z-[1000] transition-all duration-300",
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
@@ -85,12 +86,12 @@ function NavBar() {
           {/* LANGUAGE SWITCHER */}
           <div className="flex items-center gap-2 text-sm ml-4">
             <button
+              type="button"
               onClick={() => i18n.changeLanguage("en")}
               className={cn(
                 "hover:text-primary transition",
                 i18n.language === "en" && "text-primary font-medium"
               )}
-              type="button"
             >
               EN
             </button>
@@ -98,28 +99,37 @@ function NavBar() {
             <span className="opacity-50">|</span>
 
             <button
+              type="button"
               onClick={() => i18n.changeLanguage("fr")}
               className={cn(
                 "hover:text-primary transition",
                 i18n.language === "fr" && "text-primary font-medium"
               )}
-              type="button"
             >
               FR
             </button>
           </div>
+
+          {/* THEME TOGGLE */}
+          <ThemeToggle className="ml-2" />
         </div>
 
-        {/* MOBILE MENU BUTTON */}
-        <button
-          onClick={() => setIsMenuOpen((prev) => !prev)}
-          className="md:hidden p-2 text-foreground z-[1100]"
-          aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
-          aria-expanded={isMenuOpen}
-          type="button"
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        {/* MOBILE ACTIONS (Theme + Burger) */}
+        <div className="md:hidden flex items-center gap-2">
+          {/* THEME TOGGLE (MOBILE) */}
+          <ThemeToggle />
+
+          {/* MOBILE MENU BUTTON */}
+          <button
+            type="button"
+            onClick={() => setIsMenuOpen((prev) => !prev)}
+            className="p-2 text-foreground z-[1100]"
+            aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
+            aria-expanded={isMenuOpen}
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
 
         {/* MOBILE OVERLAY NAV */}
         <div
@@ -144,35 +154,38 @@ function NavBar() {
               </a>
             ))}
 
-            {/* MOBILE LANGUAGE SWITCHER */}
-            <div className="flex justify-center gap-4 pt-6 text-base">
+            {/* MOBILE LANGUAGE + THEME */}
+            <div className="flex justify-center items-center gap-4 pt-6 text-base">
               <button
+                type="button"
                 onClick={() => {
                   i18n.changeLanguage("en");
                   fermerMenu();
                 }}
                 className={cn(
-                  "hover:text-primary",
+                  "hover:text-primary transition",
                   i18n.language === "en" && "text-primary font-medium"
                 )}
-                type="button"
               >
                 EN
               </button>
 
               <button
+                type="button"
                 onClick={() => {
                   i18n.changeLanguage("fr");
                   fermerMenu();
                 }}
                 className={cn(
-                  "hover:text-primary",
+                  "hover:text-primary transition",
                   i18n.language === "fr" && "text-primary font-medium"
                 )}
-                type="button"
               >
                 FR
               </button>
+
+              {/* Theme toggle also available inside menu */}
+              <ThemeToggle />
             </div>
           </div>
         </div>

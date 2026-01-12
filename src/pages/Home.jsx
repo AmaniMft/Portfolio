@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="min-h-screen bg-backgound text-foreground overflow-x-hidden">
 
-      <ThemeToggle/>
+      
       <StarBackground/>
       <NavBar/>
       

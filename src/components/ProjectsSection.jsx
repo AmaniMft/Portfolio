@@ -58,15 +58,16 @@ function ProjectsSection() {
                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
 
-              <div
+             <div
                 className="
                   absolute inset-0
                   bg-black/70
-                  opacity-0 group-hover:opacity-100
+                  opacity-100 md:opacity-0 md:group-hover:opacity-100
                   transition-all duration-500
                   flex flex-col justify-between p-6
                 "
               >
+
                 <div>
                   <h3 className="text-xl font-semibold text-white">
                     {t(project.titleKey)}
