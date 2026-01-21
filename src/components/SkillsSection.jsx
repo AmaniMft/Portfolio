@@ -6,7 +6,7 @@ import {
   DiMysql, DiPostgresql, DiMongodb, DiGit, DiDocker
 } from "react-icons/di";
 import { SiSpring, SiSqlite } from "react-icons/si";
-import { FaAws, FaGithub, FaNode, FaLinux, FaWindows } from "react-icons/fa";
+import { FaAws, FaGithub, FaNode, FaLinux, FaWindows, FaFigma} from "react-icons/fa";
 
 const skills = [
   { name: "HTML5", category: "Frontend", icon: DiHtml5 },
@@ -33,6 +33,7 @@ const skills = [
   { name: "Docker", category: "Tools", icon: DiDocker },
   { name: "Node.js", category: "Tools", icon: FaNode },
   { name: "AWS", category: "Tools", icon: FaAws },
+  { name: "Figma", category: "Tools", icon: FaFigma },
 ];
 
 const categories = ["all", "Frontend", "Backend", "Database", "Operating Systems", "Tools"];
