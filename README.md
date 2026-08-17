@@ -1,4 +1,4 @@
-# 🚀 Developer Portfolio
+# 🚀 Portfolio
 
 Personal portfolio website built with **React** and **Vite**, designed to showcase projects, skills, and professional profile in a clean and performant way.
 

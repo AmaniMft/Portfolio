@@ -34,36 +34,39 @@ i18n.use(initReactI18next).init({
         // HERO
         hero_hi_im: "Hi, I'm",
         hero_desc_line1:
-          "Full Stack Developer, building modern and reliable web applications.",
+          "Full Stack Engineer, I build high-performance Full Stack applications and tailored AI solutions.",
         hero_desc_line2:
-          "I enjoy transforming ideas into functional products and continuously improving my technical skills through real-world projects.",
+          " I turn your complex needs into seamless, robust, and secure experiences.",
         hero_cta: "View my Work",
         hero_scroll: "Scroll",
+
+        
 
         // ABOUT
         about_title_1: "About",
         about_title_2: "Me",
 
-        about_role: "Full Stack Developer",
+        about_role: "Full Stack Engineer",
 
-        about_p1: "Full Stack developer specialized in Python/Django and React.",
+        about_p1: "Full Stack Engineer specialized in Python (FastAPI, Django) and React ecosystems, with hands-on experience in AI integration (RAG, LLMs).",
         about_p2:
-          "I have experience working on internal applications used in production, contributing to both backend development (REST APIs, relational databases) and frontend integration.",
+          "Proficient in building RESTful APIs, designing relational databases, and delivering production-grade web applications.",
         about_p3:
-          "I enjoy building well-structured applications, writing clear and maintainable code, and collaborating in organized development environments.",
+          " Focused on software engineering best practices: clean code, maintainability, and scalable architectures.",
+
 
         about_cta_contact: "Get In Touch",
         about_cta_cv: "Download CV",
 
         about_stack_title: "Stack",
-        about_stack_value: "Python · Django · React",
+        about_stack_value: "Python · FastAPI · Django · React · RAG / LLM",
 
         about_soft_title: "Soft Skills",
-        about_soft_value: "Autonomous · Curious",
+        about_soft_value: "Autonomous · Problem Solver · Proactive",
 
         about_exp_title: "Experience",
         about_exp_value:
-          "Internal tools · Production environments · APIs & databases",
+          "Production Apps · REST APIs & SQL · AI & RAG Architecture",
 
   
         // PROJECTS
@@ -83,6 +86,19 @@ i18n.use(initReactI18next).init({
         project_bio_desc:
           "Application designed to analyze, clean and validate biological data .",
 
+        project_chatbot_title: "Local AI Chatbot",
+        project_chatbot_desc: 
+          " An intelligent virtual assistant designed to analyze PDF documents and answer user queries in natural language.",
+        
+        project_expertauto_title: "Local AI Chatbot",
+        project_expertauto_desc: 
+          " An intelligent virtual assistant designed to analyze PDF documents and answer user queries in natural language.",
+        
+        project_expertauto_title: "Showcase Website – Auto Expert",
+        project_expertauto_desc: 
+          " Responsive, bilingual (FR/AR) showcase site featuring WhatsApp integration, contact form, and real-time notifications.",
+        
+
         // SKILLS
         skills_title_my: "My",
         skills_title_skills: "Skills",
@@ -91,6 +107,7 @@ i18n.use(initReactI18next).init({
         skills_cat_backend: "Backend",
         skills_cat_database: "Database",
         skills_cat_os: "Operating Systems",
+        skills_cat_ai:"AI",
         skills_cat_tools: "Tools",
 
         // CONTACT
@@ -132,37 +149,45 @@ i18n.use(initReactI18next).init({
         // HERO
         hero_hi_im: "Bonjour, je suis",
         hero_desc_line1:
-          "Développeuse Full Stack, je crée des applications web modernes et fiables.",
+          "Ingénieure Full Stack, Je conçois des applications Full Stack performantes et de solutions d'IA sur mesure.",
         hero_desc_line2:
-          "J’aime transformer des idées en produits concrets et améliorer continuellement mes compétences techniques grâce à des projets réels.",
+          "Je transforme vos besoins complexes en expériences fluides, robustes et sécurisées.",
         hero_cta: "Voir mes projets",
         hero_scroll: "Défiler",
+
+      
+
+
+
+  
 
         // ABOUT
         about_title_1: "À propos",
         about_title_2: "de moi",
 
-        about_role: "Développeuse Full Stack",
+        about_role: "Ingénieure Full Stack ",
 
         about_p1:
-          "Développeuse full stack spécialisée en Python/Django et React.",
+          "Ingénieure Full axée sur l'écosystème Python (FastAPI, Django), React, et l'intégration de solutions IA (RAG, LLM)",
         about_p2:
-          "Expérience sur des applications internes utilisées en production, avec contribution au backend (APIs REST, bases relationnelles) et à l’intégration frontend.",
+          "Expertise en conception d'APIs REST, modélisation de bases de données relationnelles et développement d'applications web haute performance déployées en production.",
         about_p3:
-          "J’aime concevoir des applications bien structurées, écrire un code clair et maintenable, et évoluer dans des environnements de développement organisés.",
+          " Engagée sur la qualité logicielle : code propre, maintenable et architectures évolutives.",
+
+
 
         about_cta_contact: "Me contacter",
         about_cta_cv: "Télécharger le CV",
 
         about_stack_title: "Stack",
-        about_stack_value: "Python · Django · React",
+        about_stack_value: "Python · FastAPI · Django · React · RAG / LLM",
 
         about_soft_title: "Soft Skills",
-        about_soft_value: "Autonome · Curieuse",
+        about_soft_value: "Autonome · Capacité d'analyse · Proactive",
 
         about_exp_title: "Expérience",
         about_exp_value:
-          "Outils internes · Environnements de production · APIs & bases de données",
+          "Apps en production · APIs REST & SQL · Architecture IA & RAG",
 
         // PROJECTS
         projects_title_1: "Mes",
@@ -182,6 +207,16 @@ i18n.use(initReactI18next).init({
         project_bio_desc:
           "Application conçue pour analyser, nettoyer et valider des données biologiques .",
 
+        
+        project_chatbot_title: "Chatbot IA Local",
+        project_chatbot_desc: 
+        "Un assistant virtuel intelligent conçu pour analyser des documents PDF et répondre aux questions en langage naturel.",
+        
+         
+        project_expertauto_title: "Site Vitrine – Expert Auto",
+        project_expertauto_desc: 
+          "Site vitrine responsive et bilingue (FR/AR) avec intégration WhatsApp, formulaire et notifications en temps réel.",        
+
         // SKILLS
         skills_title_my: "Mes",
         skills_title_skills: "Compétences",
@@ -190,6 +225,7 @@ i18n.use(initReactI18next).init({
         skills_cat_backend: "Backend",
         skills_cat_database: "Base de données",
         skills_cat_os: "Systèmes d’exploitation",
+        skills_cat_ai:"IA",
         skills_cat_tools: "Outils",
 
         // CONTACT
