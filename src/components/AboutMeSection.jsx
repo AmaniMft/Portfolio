@@ -2,7 +2,7 @@ import { Code, User, Briefcase } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 function AboutMeSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <section id="about" className="py-24 px-4 relative">
@@ -26,7 +26,11 @@ function AboutMeSection() {
               </a>
 
               
-              <a href="/CV Amani MEFTAH.pdf" className="cosmic-button">
+              <a 
+                href={i18n.language === "fr" ? "/public/CV/CV Amani MEFTAH ( FR).pdf" : "public/CV/CV Amani MEFTAH (EN).pdf"}
+                download
+                className="cosmic-button"
+              >
                 {t("about_cta_cv")}
               </a>
             </div>
