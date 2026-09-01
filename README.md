@@ -31,7 +31,8 @@ Personal portfolio website built with **React** and **Vite**, designed to showca
 ## 📁 Project Structure
 
     ├─ public/
-      ├─images/             Static images
+      ├─images/ 
+      ├─ CV/             
     ├─ src/
       ├─ components/        Reusable UI components
       ├─ pages/             Routed pages (Home, NotFound)

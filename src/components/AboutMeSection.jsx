@@ -27,7 +27,7 @@ function AboutMeSection() {
 
               
               <a 
-                href={i18n.language === "fr" ? "/public/CV/CV Amani MEFTAH ( FR).pdf" : "public/CV/CV Amani MEFTAH (EN).pdf"}
+                href={i18n.language === "fr" ? "/CV/CV Amani MEFTAH ( FR).pdf" : "/CV/CV Amani MEFTAH (EN) .pdf"}
                 download
                 className="cosmic-button"
               >
